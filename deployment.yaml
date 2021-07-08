@@ -10,7 +10,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx-alpine
+      app: nginx
       tag: alpine
   strategy:
     rollingUpdate:
